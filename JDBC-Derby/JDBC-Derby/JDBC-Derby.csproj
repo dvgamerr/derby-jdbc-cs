@@ -32,14 +32,29 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="derby">
+      <HintPath>C:\apache\db-derby-10.10.2.0-bin\lib\derby.dll</HintPath>
+    </Reference>
+    <Reference Include="derbytools">
+      <HintPath>C:\apache\db-derby-10.10.2.0-bin\lib\derbytools.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Beans, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\packages\IKVM.OpenJDK.Beans.7.2.4630.5\lib\IKVM.OpenJDK.Beans.dll</HintPath>
+    </Reference>
     <Reference Include="IKVM.OpenJDK.Charsets, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>..\packages\IKVM.OpenJDK.Charsets.7.2.4630.5\lib\IKVM.OpenJDK.Charsets.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Corba, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\packages\IKVM.OpenJDK.Corba.7.2.4630.5\lib\IKVM.OpenJDK.Corba.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Core, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>..\packages\IKVM.OpenJDK.Core.7.2.4630.5\lib\IKVM.OpenJDK.Core.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Jdbc, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>..\packages\IKVM.OpenJDK.Jdbc.7.2.4630.5\lib\IKVM.OpenJDK.Jdbc.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Management, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
+      <HintPath>..\packages\IKVM.OpenJDK.Management.7.2.4630.5\lib\IKVM.OpenJDK.Management.dll</HintPath>
     </Reference>
     <Reference Include="IKVM.OpenJDK.Misc, Version=7.2.4630.5, Culture=neutral, PublicKeyToken=13235d27fcbfff58, processorArchitecture=MSIL">
       <HintPath>..\packages\IKVM.OpenJDK.Misc.7.2.4630.5\lib\IKVM.OpenJDK.Misc.dll</HintPath>
